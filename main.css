@@ -1,0 +1,341 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+} 
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1; 
+}
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+.span-12-12 {
+	width: 100%;
+}
+
+.span-11-12 {
+	width: 91.53%;
+}
+
+.span-10-12 {
+	width: 83.06%;
+}
+
+.span-9-12 {
+	width: 74.6%;
+}
+
+.span-8-12 {
+	width: 66.13%;
+}
+
+.span-7-12 {
+	width: 57.66%; 
+}
+
+.span-6-12 {
+	width: 49.2%; 
+}
+
+.span-5-12 {
+	width: 40.73%; 
+}
+
+.span-4-12 {
+	width: 32.26%; 
+}
+
+.span-3-12 {
+	width: 23.8%;
+}
+
+.span-2-12 {
+	width: 15.33%; 
+}
+
+.span-1-12 {
+	width: 6.86%; 
+}
+
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span-12-12 {
+		width: 100%; 
+	}
+	.span-11-12 {
+		width: 100%; 
+	}
+	.span-10-12 {
+		width: 100%; 
+	}
+	.span-9-12 {
+		width: 100%; 
+	}
+	.span-8-12 {
+		width: 100%; 
+	}
+	.span-7-12 {
+		width: 100%; 
+	}
+	.span-6-12 {
+		width: 100%; 
+	}
+	.span-5-12 {
+		width: 100%; 
+	}
+	.span-4-12 {
+		width: 100%; 
+	}
+	.span-3-12 {
+		width: 100%; 
+	}
+	.span-2-12 {
+		width: 100%; 
+	}
+	.span-1-12 {
+		width: 100%; 
+	}
+}
+
+body {
+	background: url(http://terminalgamer.com/wp-content/uploads/2011/08/gc_trollbattle.jpg) center center no-repeat fixed;
+	background-size: cover;
+}
+
+.container{
+	width: 1500px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.top a {
+	text-decoration: none;
+	color: rgba(215, 229, 252, 1);
+}
+
+.top {
+	text-align: right;
+	width: 100%;
+	height: 25px;
+	background: rgba(66, 13, 104, 0.6);
+	position: fixed;
+	top: 0;
+}
+
+.top ul {
+	margin-left: 15px;
+}
+
+.top li {
+	display: inline-block;
+	padding: 5px;
+	font-size: 15px;
+}
+
+.top li:hover {
+	border-left: 1px solid #808080;
+	border-right: 1px solid #808080;
+	background-color: #4f4ad4;
+}
+
+.logo {
+	margin-top: 120px;
+	font-size: 60px;
+	color: rgba(207, 209, 224, 1);
+	text-align: center;
+}
+
+.gamer {
+	font-family: CenturyGothic;
+	font-weight: bold;
+}
+
+.guild {
+	margin-top: -10px;
+	font-family: CenturyGothic;
+	font-weight: bold;
+}
+
+
+.nav {
+	margin-top: 25px;
+	background-color: rgba(31, 26, 53, 0.5);
+	border: solid 1px #f0f6ff;
+	border-top-left-radius:75px;
+	border-top-right-radius:75px;
+}
+
+.nav ul {
+	text-align: center;
+	height: 35px;
+}
+
+.nav a {
+	text-decoration: none;
+	color: rgba(216, 210, 240, 1);
+}
+
+.nav li {
+	display: inline-block;
+	font-size: 25px;
+	padding-top: 4px;
+	padding-left: 40px;
+	padding-right: 40px;	
+}
+
+.nav a:hover {
+	box-shadow: -1px 0px 73px #ffffff;
+}
+
+.intro {
+	margin-top: 150px;
+	padding: 10px 0;
+	border:groove 10px rgba(216, 210, 240, 1);
+	text-align: center;
+	font-family: Century;
+	font-weight: bold;
+	color: rgba(216, 210, 240, 1);
+	background-color: rgba(31, 26, 53, 0.5);
+}
+
+.intro h1 {
+	font-size: 30px;
+}
+
+.intro p {
+	font-size: 25px;
+}
+
+.content {
+	margin-top: 130px;
+	text-align: center;
+}
+
+.content p {
+	margin-top: 25px;
+	font-size: 25px;
+	font-weight: bold;
+	color: rgba(255, 255, 255, 1);
+}
+
+#tips {
+	border:double 5px #a6afcc;
+	box-shadow: 2px -9px 75px #fcffff;
+}
+
+#build {
+	border:double 5px #a6afcc;
+	box-shadow: 2px -9px 75px #fcffff;
+}
+
+#submit {
+	border:double 5px #a6afcc;
+	box-shadow: 2px -9px 75px #fcffff;
+}
+
+.feature {
+	text-align: center;
+	margin-top: 150px;
+}
+
+.feature h3 {
+	font-size: 25px;
+	font-family: CenturyGothic;
+	color: rgba(255, 255, 255, 1);
+	margin-bottom: 15px;
+}
+
+.footer {
+	margin-top: 100px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.footer ul {
+	margin-top: 10px;
+}
+
+.footer li {
+	display: inline-block;
+	margin: 0 1px;
+}
+
+.footer p {
+	text-align: center;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #fff;
+}
+
